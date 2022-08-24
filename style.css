@@ -1,8 +1,13 @@
 body{
+    background-color: rgb(138, 194, 226);
+}
+.bg{
     background-color: aqua;
     background-image: url('weatherr.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 50%;
 }
 
 .makeCenter{
@@ -25,6 +30,13 @@ body{
 .btn{
     background-color: black;
     color: aliceblue;
+   margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+}
+.c{
+    text-align: center;
+    margin-bottom:20px;
 }
 :hover.btn{
 background-color:rgb(84, 84, 84);
@@ -36,8 +48,10 @@ background-color:rgb(84, 84, 84);
     background-color: blue;
 }
 footer{
-    text-align: end;
-    color: aliceblue;
+    text-align: center;
+    color: rgb(17, 44, 67);
+   bottom: 30px;
+   position: fixed; 
 }
 .table{
     margin-left: auto;
