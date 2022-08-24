@@ -1,7 +1,8 @@
 body{
     background-color: aqua;
-    background-image: url('weaher.jpg');
+    background-image: url('weatherr.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .makeCenter{
