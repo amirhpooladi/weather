@@ -8,6 +8,7 @@ var total = {
             this.cityName = this.input.value;
          await  total.api(this.cityName);
            total.show();
+           this.changeBg();
         });
         
 
@@ -57,7 +58,19 @@ var total = {
             document.querySelector("#windSpeed").textContent="";
         }
 
+    },
+    changeBg:function(){
+        if(this.infoToShow.mainWeather=="clear sky"){
+            document.getElementsByTagName("body")[0].style.backgroundImage="url(https://media.istockphoto.com/photos/beautiful-sky-with-white-cloud-background-picture-id517897328?b=1&k=20&m=517897328&s=170667a&w=0&h=QpeJ9U8Kdx7Wbj96k_8pYR_5NvM2FfcufYg2NJGqPUo=)";
+        }else if(this.infoToShow.mainWeather=="overcast clouds" || this.infoToShow.mainWeather=="scattered clouds" ){
+            document.getElementsByTagName("body")[0].style.backgroundImage="url(https://www.rochesterfirst.com/wp-content/uploads/sites/66/2021/04/black-rain-abstract-dark-power-1-1.jpg?w=900)";
+        }else{
+            document.getElementsByTagName("body")[0].style.backgroundImage="";
+        }
     }
+
+    
+
 }
 
 total.search();
