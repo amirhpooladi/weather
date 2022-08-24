@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sky weather</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="makeCenter font">SKY WEATHER</h1>
+    
+    <div class="input1 makeCenter">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="city name" aria-label="city name"
+                aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">submit</button>
+        </div>
+    </div>
+
+
+    <table class="table table-success table-striped-columns table">
+        <thead>
+          <tr>
+            <th scope="col">country</th>
+            <th scope="col">name</th>
+            <th scope="col">main weather</th>
+            <th scope="col">temp</th>
+            <th scope="col">humidity</th>
+            <th scope="col">wind speed</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td id="country">country</td>
+            <td id="name">city</td>
+            <td id="mainWeather">weather</td>
+            <td id="temp">temp</td>
+            <td id="humidity">humidity</td>
+            <td id="windSpeed">windSpeed</td>
+          </tr>
+         
+        </tbody>
+      </table>
+
+
+      
+    <footer class="makeCenter">BY AmirhosseinPooladi</footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

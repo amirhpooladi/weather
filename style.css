@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    background-image: url('weaher.jpg');
+    background-size: cover;
+}
+
+.makeCenter{
+    text-align: center;
+    margin-bottom:80px;
+    margin-top: 50px;
+    
+}
+.font{
+    font-family:unset;
+    font-size: 2.5rem;
+}
+.input1{
+  height: 50px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+    position:relative;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+}
+:hover.btn{
+background-color:rgb(84, 84, 84);
+}
+:active.btn{
+    background-color: chartreuse;
+}
+:disabled.btn{
+    background-color: blue;
+}
+footer{
+    text-align: end;
+    color: aliceblue;
+}
+.table{
+    margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+
+}
